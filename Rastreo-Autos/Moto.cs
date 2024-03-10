@@ -18,8 +18,9 @@ namespace Rastreo_Autos
 
         public void mostrarmoto()
         {
+    
             MostrarMedTrans();
-            Console.WriteLine("Cantidad de vehiculos: " + cantCilindraje250);
+            Console.WriteLine("Cantidad de motos con cilindraje mayor a 250: " + cantCilindraje250);
 
         }
 
